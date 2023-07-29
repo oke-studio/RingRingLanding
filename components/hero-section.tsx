@@ -77,15 +77,15 @@ export function HeroSection() {
                 </div>
                 <div className='relative'>
                <ContactForm/>
-               <div className='md:hidden z-0 absolute top-5 left-5 pb-4 sm:mr-40 '>
+               <div className='md:hidden z-0 absolute top-5 left-2 pb-4 sm:mr-40 '>
                 <Image 
                 src= "/whitephone.svg"
-                width={100}
-                height={100} 
+                width={80}
+                height={80} 
                 alt="whitephone"
                 className=""/>
             </div>
-            <div className=' md:hidden pb-9 pl-9 sm:pl-0 sm:pb-0 absolute right-80 top-10'>
+            <div className=' md:hidden absolute right-40 top-10'>
                 <Image 
                 src= "/toastglass.svg"
                 width={100}
@@ -218,7 +218,7 @@ export function HeroSection() {
          </div>
 
         </div>
-        <div className='bg-amber-300 w-screen sm:p-4 fixed bottom-0 left-0 flex flex-row overflow-x-hidden'>
+        <div className='z-20 bg-amber-300 w-screen sm:p-4 fixed bottom-0 left-0 flex flex-row overflow-x-hidden'>
         <div className='flex flex-row space-x-10 animate-marquee-infinite w-fit'>
        <h2> Baby Showers </h2>
        <h2>Weddings</h2>
