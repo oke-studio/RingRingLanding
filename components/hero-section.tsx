@@ -7,42 +7,111 @@ export function HeroSection() {
    
   return (
     <>
-    <div className='bg-orange-100 h-4/5 min-w-screen  flex flex-col md:flex md:flex-row relative'>
+    <div className='bg-orange-100  md:h-full w-screen  flex flex-col md:flex md:flex-row relative'>
         {/* left side */}
-        <div className=' w-full sm:h-full w-2/4 flex flex-col' >
-           <div className=''>
-           <div className=' h-fit sm:h-2/4 flex items-start'>
+        <div className='  h-full w-full  md:h-4/5  flex flex-col relative ' >
+        <div className=' md:hidden z-0 absolute top-0 left-0'>
+            <Image 
+            src= "/cake.svg"
+            width={100}
+            height={100} 
+            alt="cake"
+            />
+            </div>
+            <div className='md:hidden absolute top-5 right-0'>
+            <Image 
+            src= "/pinkribbon.svg"
+            width={100}
+            height={100} 
+            alt="pinkRib"
+            className=""/>
+            </div>
+            <div className=' md:hidden absolute right-5 top-60 '>
+            <Image 
+            src= "/pinkphone.svg"
+            width={100}
+            height={100} 
+            alt="pinkPhone"
+            className=""/>
+            </div>
+            <div className=' absolute top-60 left-10 md:hidden flex flex-end '>
+            <div className=' absolute left-5 lg:left-16 bottom-10'>
+            <Image 
+            src= "/dot.svg"
+            width={10}
+            height={10} 
+            alt="dot"
+            className=""/>
+            </div>
+            <div className='mt-10'>
+            <Image 
+            src= "/sickleribbon.svg"
+            width={80}
+            height={80} 
+            alt="sickleribbon"
+            className=""/>
+            </div>
+            </div>
+            
+           <div className='relative '>
+           <div className=' h-fit z-10 w-fit md:w-full lg:w-full sm:h-2/4 mx-auto lg:flex items-start'>
+            
            <Image 
            src ="/RingRing-Logo-01 1.png"
            width={300}
            height ={300}
            alt="Ringlogo"
-           className=''
            /> 
            </div>
 
-           <div className=' h-full w-full  sm:h-fit w-full '> 
-            <h1 className=' text-2xl  font-sans ml-0 pl-9 pr-9 w-full sm:text-5xl  sm:leading-20 sm:pr-0 sm:pl-10'>
+           <div className=' h-full sm:h-fit w-1/2 mx-auto sm:w-1/2 md:w-full lg:w-full  '> 
+            <h1 className=' text-4xl text-center md:text-start lg:text-startfont-sans ml-0 pl-9 pr-9 w-full  md:text-5xl lg:text-5xl sm:leading-20 lg:pl-10'>
                 Make your <br/>memories last forever
             </h1>
            </div>
            <div className='  flex flex-col w-3/4  sm:flex sm:flex-col w-full pl-0'>
-                <div className=' h-fit w-full pl-9 pr-9 ml-0 mt-5 text-base sm:h-fit w-3/5  mt-7 font-sans' >
+                <div className=' w-2/3 self-center h-fit md:w-full lg:w-full pl-9 pr-9 ml-0 mt-5 text-base sm:h-fit mt-7 font-sans' >
                     <p>Your special event needs a bit of magic. 
                         Thats why we're launching the most personal and fun audio phone. 
                         Canada wide shipping! </p>
                 </div>
-                <div>
+                <div className='relative'>
                <ContactForm/>
+               <div className='md:hidden z-0 absolute top-5 left-5 pb-4 sm:mr-40 '>
+                <Image 
+                src= "/whitephone.svg"
+                width={100}
+                height={100} 
+                alt="whitephone"
+                className=""/>
+            </div>
+            <div className=' md:hidden pb-9 pl-9 sm:pl-0 sm:pb-0 absolute right-80 top-10'>
+                <Image 
+                src= "/toastglass.svg"
+                width={100}
+                height={100} 
+                alt="toastGlass"
+                className=""/>
+            </div>
+            
+            <div className='md:hidden absolute bottom-0 right-5 '>
+                <Image 
+                src= "/phone.svg"
+                width={100}
+                height={100} 
+                alt="orangePhone"
+                className=""/>
+            </div>
                </div>
             </div>
+            
             </div>
         </div>
 
-        <div className='h-full  sm:w-full w-full flex flex-col flex items-end'>
-        <div className='  flex sm:flex sm:flex-row sm:mr-16'>
+        <div className=' hidden h-full  md:w-full w-full md:flex flex-col md:flex items-end'>
+        <div className=' flex md:flex md:flex-row lg:mr-16'>
             <div className=' flex flex-end relative'>
-            <div className=' absolute left-12 sm:left-16 bottom-11'>
+            <div className=' absolute left-12 lg:left-16 bottom-11'>
             <Image 
             src= "/dot.svg"
             width={20}
@@ -84,7 +153,7 @@ export function HeroSection() {
             className=""/>
             </div>
          </div>
-         <div className=' flex flex-row flex sm:mr-40 sm:w-fit w-full relative'>
+         <div className='  flex flex-row flex lg:mr-40 sm:w-fit w-full relative'>
             <div className=' mt-10 ' >
             <Image 
             src= "/flower.svg"
@@ -110,7 +179,7 @@ export function HeroSection() {
             className=""/>
             </div>
          </div>
-         <div className=' sm:mr-40 '>
+         <div className='lg:mr-40 '>
                 <Image 
                 src= "/Group.svg"
                 width={80}
@@ -119,7 +188,7 @@ export function HeroSection() {
                 className=""/>
             </div>
         
-         <div className=' w-full sm:w-fit flex relative sm:mr-40'>
+         <div className='w-full md:w-full lg:w-fit flex relative lg:mr-40'>
             <div className='pb-4 sm:mr-40'>
                 <Image 
                 src= "/whitephone.svg"
@@ -149,7 +218,7 @@ export function HeroSection() {
          </div>
 
         </div>
-    <div className='bg-amber-300 w-screen sm:p-4 fixed bottom-0 left-0 flex flex-row overflow-x-hidden'>
+        <div className='bg-amber-300 w-screen sm:p-4 fixed bottom-0 left-0 flex flex-row overflow-x-hidden'>
         <div className='flex flex-row space-x-10 animate-marquee-infinite w-fit'>
        <h2> Baby Showers </h2>
        <h2>Weddings</h2>
