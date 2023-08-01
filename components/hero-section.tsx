@@ -65,12 +65,12 @@ export function HeroSection() {
            </div>
 
            <div className=' h-full sm:h-fit w-1/2 mx-auto sm:w-1/2 md:w-full lg:w-full  '> 
-            <h1 className=' text-4xl text-center md:text-start lg:text-startfont-sans ml-0 pl-9 pr-9 w-full  md:text-5xl lg:text-5xl sm:leading-20 lg:pl-10'>
+            <h1 className='  text-4xl font-bold text-center md:text-start lg:text-start font-sans ml-0 pl-9 pr-9 w-full  md:text-5xl lg:text-5xl sm:leading-10 lg:pl-10'>
                 Make your <br/>memories last forever
             </h1>
            </div>
            <div className='  flex flex-col w-3/4  sm:flex sm:flex-col w-full pl-0'>
-                <div className=' w-2/3 self-center h-fit md:w-full lg:w-full pl-9 pr-9 ml-0 mt-5 text-base sm:h-fit mt-7 font-sans' >
+                <div className=' w-2/3 self-center h-fit md:w-full lg:w-full pl-9 pr-9 ml-0 mt-5 text-base sm:h-fit mt-7 font-newhero font-normal md:text-[24px] text-[18px]' >
                     <p>Your special event needs a bit of magic. 
                         Thats why we're launching the most personal and fun audio phone. 
                         Canada wide shipping! </p>
@@ -220,7 +220,7 @@ export function HeroSection() {
         </div>
         <div className='z-20 bg-amber-300 w-screen sm:p-4 fixed bottom-0 left-0 flex flex-row '>
         <div className=' flex flex-row whitespace-nowrap w-[200%] overflow-x-hidden'>
-         <div className='flex flex-row   whitespace-nowrap space-x-40 justify-around w-full animate-marquee'>   
+         <div className='flex flex-row font-newhero font-extrabold text-[1.2rem] capitalize whitespace-nowrap space-x-40 justify-around w-full animate-marquee'>   
        <h2 > Baby Showers</h2>
        <h2>Weddings</h2>
        <h2>Birthdays</h2>
