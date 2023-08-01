@@ -7,7 +7,7 @@ export function HeroSection() {
    
   return (
     <>
-    <div className='bg-orange-100  md:h-full w-screen  flex flex-col md:flex md:flex-row relative'>
+    <div className='bg-orange-100  md:h-full w-screen  flex flex-col md:flex md:flex-row relative '>
         {/* left side */}
         <div className='  h-full w-full  md:h-4/5  flex flex-col relative ' >
         <div className=' md:hidden z-0 absolute top-0 left-0'>
@@ -218,19 +218,42 @@ export function HeroSection() {
          </div>
 
         </div>
-        <div className='z-20 bg-amber-300 w-screen sm:p-4 fixed bottom-0 left-0 flex flex-row overflow-x-hidden'>
-        <div className='flex flex-row space-x-10 animate-marquee-infinite w-fit'>
-       <h2> Baby Showers </h2>
+        <div className='z-20 bg-amber-300 w-screen sm:p-4 fixed bottom-0 left-0 flex flex-row '>
+        <div className=' flex flex-row whitespace-nowrap w-[200%] overflow-x-hidden'>
+         <div className='flex flex-row   whitespace-nowrap space-x-40 justify-around w-full animate-marquee'>   
+       <h2 > Baby Showers</h2>
        <h2>Weddings</h2>
        <h2>Birthdays</h2>
        <h2>Engagement</h2>
        <h2>Graduation</h2>
+       <h2 > Baby Showers</h2>
+       <h2>Weddings</h2>
+       <h2>Birthdays</h2>
+       <h2>Engagement</h2>
+       <h2>Graduation</h2>
+       <h2 > Baby Showers</h2>
+       <h2>Weddings</h2>
+       <h2>Birthdays</h2>
+       <h2>Engagement</h2>
+       <h2>Graduation</h2>
+       <h2> Baby Showers</h2>
+       <h2>Weddings</h2>
+       <h2>Birthdays</h2>
+       <h2>Engagement</h2>
+       <h2>Graduation</h2>
+       <h2 > Baby Showers</h2>
+       <h2>Weddings</h2>
+       <h2>Birthdays</h2>
+       <h2>Engagement</h2>
+       <h2>Graduation</h2>
+       <h2 > Baby Showers</h2>
+       <h2>Weddings</h2>
+       <h2>Birthdays</h2>
+       <h2>Engagement</h2>
+       <h2>Graduation</h2>
+       </div>
        
-       <h2> Baby Showers </h2>
-       <h2>Weddings</h2>
-       <h2>Birthdays</h2>
-       <h2>Engagement</h2>
-       <h2>Graduation</h2>
+      
        </div>
        </div>
     </div>

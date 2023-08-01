@@ -230,32 +230,6 @@
         "async": false
       }
     },
-    "(app-client)/./components/providers.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/providers.tsx",
-        "name": "*",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./components/providers.tsx",
-        "name": "",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "Providers": {
-        "id": "(sc_client)/./components/providers.tsx",
-        "name": "Providers",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./app/contact/contact-form.tsx": {
       "*": {
         "id": "(sc_client)/./app/contact/contact-form.tsx",
@@ -338,6 +312,32 @@
         "name": "defaultHead",
         "chunks": [
           "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/providers.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/providers.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/providers.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "Providers": {
+        "id": "(sc_client)/./components/providers.tsx",
+        "name": "Providers",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       }
@@ -1022,37 +1022,6 @@
       ],
       "async": false
     },
-    "/Users/daniel/Documents/GitHub/RingRingLanding/styles/globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/daniel/Documents/GitHub/RingRingLanding/components/providers.tsx": {
-      "id": "(app-client)/./components/providers.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/daniel/Documents/GitHub/RingRingLanding/components/providers.tsx#": {
-      "id": "(app-client)/./components/providers.tsx",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/daniel/Documents/GitHub/RingRingLanding/components/providers.tsx#Providers": {
-      "id": "(app-client)/./components/providers.tsx",
-      "name": "Providers",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
     "/Users/daniel/Documents/GitHub/RingRingLanding/app/contact/contact-form.tsx": {
       "id": "(app-client)/./app/contact/contact-form.tsx",
       "name": "*",
@@ -1186,6 +1155,37 @@
       "name": "defaultHead",
       "chunks": [
         "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/daniel/Documents/GitHub/RingRingLanding/styles/globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/daniel/Documents/GitHub/RingRingLanding/components/providers.tsx": {
+      "id": "(app-client)/./components/providers.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/daniel/Documents/GitHub/RingRingLanding/components/providers.tsx#": {
+      "id": "(app-client)/./components/providers.tsx",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/daniel/Documents/GitHub/RingRingLanding/components/providers.tsx#Providers": {
+      "id": "(app-client)/./components/providers.tsx",
+      "name": "Providers",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     }
