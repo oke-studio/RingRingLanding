@@ -55,7 +55,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
-        newhero: ['new-hero']
+        newhero: "'new-hero'"
       },
       keyframes: {
         "accordion-down": {
