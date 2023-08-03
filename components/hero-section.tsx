@@ -70,7 +70,7 @@ export function HeroSection() {
             </h1>
            </div>
            <div className='  flex flex-col w-3/4  sm:flex sm:flex-col w-full pl-0'>
-                <div className='bg-white  w-2/3 self-center min-h-fit min-w-fit md:w-full lg:w-full pl-9 pr-9 ml-0 mt-5 text-base sm:h-fit mt-4 sm:mt-7  md:text-[24px] sm:text-[20px] text-[14px]' >
+                <div className=' w-2/3 self-center min-h-fit  md:w-full lg:w-full pl-9 pr-9 ml-0 mt-5 text-base sm:h-fit mt-4 sm:mt-7  md:text-[24px] sm:text-[20px] text-[14px]' >
                     <p className='tk-new-hero '>Your special event needs a bit of magic. 
                         Thats why we're launching the most personal and fun audio phone. 
                         Canada wide shipping! </p>
