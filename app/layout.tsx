@@ -19,10 +19,10 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <head />
         <body
           className=
-            "min-h-screen bg-orange-100 font-sans   antialiased">
+            "min-h-screen bg-orange-100 tk-new-hero overflow-x-hidden overflow-y-hidden  antialiased">
 
           <Providers>
-          <div className="relative flex min-h-screen flex-col">
+          <div className="relative flex min-h-screen  flex-col">
             <div className="flex-1">{children}</div>
           </div>
           </Providers>

@@ -6,7 +6,7 @@ interface Props {}
 
 export default function Page() {
   return (
-    <div className="overflow-y-hidden ">
+    <div className="">
      <HeroSection/>
       
     </div>

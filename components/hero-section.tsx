@@ -9,7 +9,7 @@ export function HeroSection() {
     <>
     <div className='bg-orange-100  md:h-full w-screen  flex flex-col md:flex md:flex-row relative '>
         {/* left side */}
-        <div className='  h-full w-full  md:h-4/5  flex flex-col relative ' >
+        <div className=' bg-orange-100 h-full w-full md:h-full flex flex-col relative' >
         <div className=' md:hidden z-0 absolute top-0 left-0'>
             <Image 
             src= "/cake.svg"
@@ -54,28 +54,28 @@ export function HeroSection() {
             </div>
             
            <div className='relative '>
-           <div className=' h-fit z-10 w-fit md:w-full lg:w-full sm:h-2/4 mx-auto p-5 lg:p-20 lg:flex items-start'>
+           <div className='h-fit z-10 w-fit md:w-full lg:w-full sm:h-2/4 mx-auto p-5 lg:p-10 xl:p-20 lg:flex items-start'>
             
            <Image 
            src ="/ringringlogo.svg"
-           width={200}
+           width={150}
            height ={200}
            alt="Ringlogo"
            /> 
            </div>
 
-           <div className=' mt-10 h-full sm:h-fit w-1/2 mx-auto sm:w-1/2 md:w-full lg:w-full  '> 
-            <h1 className=' tk-new-hero text-4xl font-bold text-center md:text-start lg:text-start  ml-0 pl-9 pr-9 w-full  md:text-5xl lg:text-5xl sm:leading-10 lg:pl-10'>
+           <div className='  mt-4 h-fit sm:h-fit w-1/2 mx-auto sm:w-1/2 md:w-full lg:w-full  '> 
+            <h1 className=' tk-new-hero text-2xl font-bold text-center md:text-start lg:text-start  ml-0 pl-9 pr-9 w-full  md:text-4xl lg:text-4xl xl:text-5xl sm:leading-10 lg:pl-9'>
                 Make your <br/>memories last forever
             </h1>
            </div>
            <div className='  flex flex-col w-3/4  sm:flex sm:flex-col w-full pl-0'>
-                <div className=' w-2/3 self-center h-fit md:w-full lg:w-full pl-9 pr-9 ml-0 mt-5 text-base sm:h-fit mt-7  md:text-[24px] text-[20px]' >
+                <div className=' w-2/3 self-center h-fit md:w-full lg:w-full pl-9 pr-9 ml-0 mt-5 text-base sm:h-fit mt-4 sm:mt-7  md:text-[24px] sm:text-[20px] text-[14px]' >
                     <p className='tk-new-hero'>Your special event needs a bit of magic. 
                         Thats why we're launching the most personal and fun audio phone. 
                         Canada wide shipping! </p>
                 </div>
-                <div className='relative'>
+                <div className='h-fit relative'>
                <ContactForm/>
                <div className='md:hidden z-0 absolute top-5 left-2 pb-4 sm:mr-40 '>
                 <Image 
@@ -94,7 +94,7 @@ export function HeroSection() {
                 className=""/>
             </div>
             
-            <div className='md:hidden absolute bottom-0 right-5 '>
+            <div className=' md:hidden absolute bottom-0 right-5 '>
                 <Image 
                 src= "/phone.svg"
                 width={100}

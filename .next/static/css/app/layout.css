@@ -652,11 +652,11 @@ body{
 .mt-3{
   margin-top: 0.75rem;
 }
+.mt-4{
+  margin-top: 1rem;
+}
 .mt-5{
   margin-top: 1.25rem;
-}
-.mt-7{
-  margin-top: 1.75rem;
 }
 .block{
   display: block;
@@ -804,8 +804,8 @@ body{
 .p-5{
   padding: 1.25rem;
 }
-.pb-20{
-  padding-bottom: 5rem;
+.pb-10{
+  padding-bottom: 2.5rem;
 }
 .pb-4{
   padding-bottom: 1rem;
@@ -831,21 +831,15 @@ body{
 .font-newhero{
   font-family: 'new-hero';
 }
-.font-sans{
-  font-family: var(--font-sans), ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-.font-\[\]{
-  font-family: ;
-}
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 .text-\[1\.2rem\]{
   font-size: 1.2rem;
 }
-.text-\[20px\]{
-  font-size: 20px;
+.text-\[14px\]{
+  font-size: 14px;
 }
 .text-base{
   font-size: 1rem;
@@ -921,6 +915,10 @@ body{
     margin-top: 5rem;
   }
 
+  .sm\:mt-7{
+    margin-top: 1.75rem;
+  }
+
   .sm\:block{
     display: block;
   }
@@ -967,6 +965,10 @@ body{
     padding-left: 0px;
   }
 
+  .sm\:text-\[20px\]{
+    font-size: 20px;
+  }
+
   .sm\:leading-10{
     line-height: 2.5rem;
   }
@@ -984,10 +986,6 @@ body{
 
   .md\:hidden{
     display: none;
-  }
-
-  .md\:h-4\/5{
-    height: 80%;
   }
 
   .md\:h-full{
@@ -1018,9 +1016,9 @@ body{
     text-align: start;
   }
 
-  .md\:text-5xl{
-    font-size: 3rem;
-    line-height: 1;
+  .md\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .md\:text-\[24px\]{
@@ -1063,12 +1061,16 @@ body{
     width: 100%;
   }
 
-  .lg\:p-20{
-    padding: 5rem;
+  .lg\:p-10{
+    padding: 2.5rem;
   }
 
-  .lg\:pl-10{
-    padding-left: 2.5rem;
+  .lg\:pl-9{
+    padding-left: 2.25rem;
+  }
+
+  .lg\:pt-5{
+    padding-top: 1.25rem;
   }
 
   .lg\:text-start{
@@ -1079,9 +1081,21 @@ body{
     font-size: 3rem;
     line-height: 1;
   }
+
+  .lg\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
 }
 
 @media (min-width: 1280px){
+
+  @media (min-width: 1024px){
+
+    .xl\:lg\:flex{
+      display: flex;
+    }
+  }
 
   .xl\:block{
     display: block;
@@ -1089,6 +1103,15 @@ body{
 
   .xl\:hidden{
     display: none;
+  }
+
+  .xl\:p-20{
+    padding: 5rem;
+  }
+
+  .xl\:text-5xl{
+    font-size: 3rem;
+    line-height: 1;
   }
 }
 
