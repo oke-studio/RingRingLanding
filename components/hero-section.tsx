@@ -65,13 +65,13 @@ export function HeroSection() {
            </div>
 
            <div className='  mt-4 h-fit sm:h-fit w-1/2 mx-auto sm:w-1/2 md:w-full lg:w-full  '> 
-            <h1 className=' tk-new-hero text-2xl font-bold text-center md:text-start lg:text-start  ml-0 pl-9 pr-9 w-full  md:text-4xl lg:text-4xl xl:text-5xl sm:leading-10 lg:pl-9'>
+            <h1 className=' tk-new-hero text-2xl font-bold text-start sm:text-center md:text-start lg:text-start  ml-0 pl-9 pr-9 w-full  md:text-4xl lg:text-4xl xl:text-5xl sm:leading-10 lg:pl-9'>
                 Make your <br/>memories last forever
             </h1>
            </div>
            <div className='  flex flex-col w-3/4  sm:flex sm:flex-col w-full pl-0'>
-                <div className=' w-2/3 self-center h-fit md:w-full lg:w-full pl-9 pr-9 ml-0 mt-5 text-base sm:h-fit mt-4 sm:mt-7  md:text-[24px] sm:text-[20px] text-[14px]' >
-                    <p className='tk-new-hero'>Your special event needs a bit of magic. 
+                <div className='bg-white  w-2/3 self-center min-h-fit min-w-fit md:w-full lg:w-full pl-9 pr-9 ml-0 mt-5 text-base sm:h-fit mt-4 sm:mt-7  md:text-[24px] sm:text-[20px] text-[14px]' >
+                    <p className='tk-new-hero '>Your special event needs a bit of magic. 
                         Thats why we're launching the most personal and fun audio phone. 
                         Canada wide shipping! </p>
                 </div>

@@ -677,8 +677,30 @@ body{
 .h-full{
   height: 100%;
 }
+.max-h-screen{
+  max-height: 100vh;
+}
+.max-h-\[500px\]{
+  max-height: 500px;
+}
 .min-h-screen{
   min-height: 100vh;
+}
+.min-h-full{
+  min-height: 100%;
+}
+.min-h-\[\]{
+  min-height: ;
+}
+.min-h-\[500px\]{
+  min-height: 500px;
+}
+.min-h-\[100px\]{
+  min-height: 100px;
+}
+.min-h-fit{
+  min-height: -moz-fit-content;
+  min-height: fit-content;
 }
 .w-1\/2{
   width: 50%;
@@ -705,6 +727,25 @@ body{
 .w-screen{
   width: 100vw;
 }
+.min-w-fit{
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+}
+.min-w-full{
+  min-width: 100%;
+}
+.min-w-\[\]{
+  min-width: ;
+}
+.min-w-\[500px\]{
+  min-width: 500px;
+}
+.min-w-\[100px\]{
+  min-width: 100px;
+}
+.max-w-full{
+  max-width: 100%;
+}
 .flex-1{
   flex: 1 1 0%;
 }
@@ -726,6 +767,12 @@ body{
 }
 .flex-col{
   flex-direction: column;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.flex-nowrap{
+  flex-wrap: nowrap;
 }
 .items-start{
   align-items: flex-start;
@@ -824,6 +871,9 @@ body{
 }
 .text-center{
   text-align: center;
+}
+.text-start{
+  text-align: start;
 }
 .font-mono{
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -963,6 +1013,10 @@ body{
 
   .sm\:pl-0{
     padding-left: 0px;
+  }
+
+  .sm\:text-center{
+    text-align: center;
   }
 
   .sm\:text-\[20px\]{
