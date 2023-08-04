@@ -677,30 +677,12 @@ body{
 .h-full{
   height: 100%;
 }
-.max-h-screen{
-  max-height: 100vh;
-}
-.max-h-\[500px\]{
-  max-height: 500px;
-}
-.min-h-screen{
-  min-height: 100vh;
-}
-.min-h-full{
-  min-height: 100%;
-}
-.min-h-\[\]{
-  min-height: ;
-}
-.min-h-\[500px\]{
-  min-height: 500px;
-}
-.min-h-\[100px\]{
-  min-height: 100px;
-}
 .min-h-fit{
   min-height: -moz-fit-content;
   min-height: fit-content;
+}
+.min-h-screen{
+  min-height: 100vh;
 }
 .w-1\/2{
   width: 50%;
@@ -727,25 +709,6 @@ body{
 .w-screen{
   width: 100vw;
 }
-.min-w-fit{
-  min-width: -moz-fit-content;
-  min-width: fit-content;
-}
-.min-w-full{
-  min-width: 100%;
-}
-.min-w-\[\]{
-  min-width: ;
-}
-.min-w-\[500px\]{
-  min-width: 500px;
-}
-.min-w-\[100px\]{
-  min-width: 100px;
-}
-.max-w-full{
-  max-width: 100%;
-}
 .flex-1{
   flex: 1 1 0%;
 }
@@ -767,12 +730,6 @@ body{
 }
 .flex-col{
   flex-direction: column;
-}
-.flex-wrap{
-  flex-wrap: wrap;
-}
-.flex-nowrap{
-  flex-wrap: nowrap;
 }
 .items-start{
   align-items: flex-start;
@@ -799,9 +756,6 @@ body{
 }
 .overflow-x-hidden{
   overflow-x: hidden;
-}
-.overflow-y-hidden{
-  overflow-y: hidden;
 }
 .whitespace-nowrap{
   white-space: nowrap;
@@ -842,6 +796,10 @@ body{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.bg-black{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
 .p-2{
   padding: 0.5rem;
 }
@@ -851,8 +809,8 @@ body{
 .p-5{
   padding: 1.25rem;
 }
-.pb-10{
-  padding-bottom: 2.5rem;
+.pb-0{
+  padding-bottom: 0px;
 }
 .pb-4{
   padding-bottom: 1rem;
@@ -1131,11 +1089,6 @@ body{
     text-align: start;
   }
 
-  .lg\:text-5xl{
-    font-size: 3rem;
-    line-height: 1;
-  }
-
   .lg\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -1143,13 +1096,6 @@ body{
 }
 
 @media (min-width: 1280px){
-
-  @media (min-width: 1024px){
-
-    .xl\:lg\:flex{
-      display: flex;
-    }
-  }
 
   .xl\:block{
     display: block;
