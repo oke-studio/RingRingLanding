@@ -30,7 +30,7 @@ export default function ContactForm() {
                 <input type ='hidden' name='form-name' value='contact' />
                 <input type="email" required placeholder='Enter your email Address'  name="email"className=" bg-white rounded-md h-fit w-full text-center md:text-start md:w-4/5 p-2 mt-3 "/>
                 <button type="submit" className='bg-[#BD4230] font-newhero font-normal text-white self-center md:self-start md:flex flex-start  p-3 border-b-4 border-b-[#5E2017] rounded-3xl w-fit mt-5 mb-7 '>Notify me for preorders </button>
-                {message? <div>Thank you, your email has been received</div> :'this works'}
+                {message? <div className='text-[#4ade80] font-bold'>Thank you, your email address has been received !!</div> :''}
                 </form>
               
 

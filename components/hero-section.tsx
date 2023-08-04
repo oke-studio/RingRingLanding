@@ -54,18 +54,28 @@ export function HeroSection() {
             </div>
             
            <div className='relative '>
-           <div className='h-fit z-10 w-fit md:w-full lg:w-full sm:h-2/4 mx-auto p-5 lg:p-10 xl:p-20 lg:flex items-start'>
+           <div className='hidden xl:h-fit xl:z-10 xl:w-fit xl:w-full xl:h-full xl:p-5 xl:flex items-start'>
+            
+            <Image 
+            src ="/ringringlogo.svg"
+            width={200}
+            height ={200}
+            alt="Ringlogo"
+            /> 
+            </div>
+
+           <div className='xl:hidden h-fit z-10 w-fit md:w-full lg:w-full sm:h-2/4 mx-auto p-5 lg:p-10  lg:flex items-start'>
             
            <Image 
            src ="/ringringlogo.svg"
            width={150}
-           height ={200}
+           height ={150}
            alt="Ringlogo"
            /> 
            </div>
 
            <div className='  mt-4 h-fit sm:h-fit w-1/2 mx-auto sm:w-1/2 md:w-full lg:w-full  '> 
-            <h1 className=' tk-new-hero text-2xl font-bold text-start sm:text-center md:text-start lg:text-start  ml-0 pl-9 pr-9 w-full  md:text-4xl lg:text-4xl xl:text-5xl sm:leading-10 lg:pl-9'>
+            <h1 className=' tk-new-hero text-2xl font-bold text-start sm:text-center md:text-start lg:text-start  ml-0 pl-9 pr-9 w-full  md:text-4xl lg:text-4xl xl:text-4xl sm:leading-10 lg:pl-9'>
                 Make your <br/>memories last forever
             </h1>
            </div>

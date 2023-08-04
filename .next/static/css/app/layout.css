@@ -866,12 +866,22 @@ body{
 .font-normal{
   font-weight: 400;
 }
+.font-medium{
+  font-weight: 500;
+}
 .capitalize{
   text-transform: capitalize;
 }
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-\[\]{
+  color: ;
+}
+.text-\[\#4ade80\]{
+  --tw-text-opacity: 1;
+  color: rgb(74 222 128 / var(--tw-text-opacity));
 }
 .antialiased{
   -webkit-font-smoothing: antialiased;
@@ -1097,21 +1107,56 @@ body{
 
 @media (min-width: 1280px){
 
+  .xl\:z-10{
+    z-index: 10;
+  }
+
   .xl\:block{
     display: block;
+  }
+
+  .xl\:flex{
+    display: flex;
   }
 
   .xl\:hidden{
     display: none;
   }
 
+  .xl\:h-fit{
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+
+  .xl\:h-full{
+    height: 100%;
+  }
+
+  .xl\:w-fit{
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
+  .xl\:w-full{
+    width: 100%;
+  }
+
   .xl\:p-20{
     padding: 5rem;
+  }
+
+  .xl\:p-5{
+    padding: 1.25rem;
   }
 
   .xl\:text-5xl{
     font-size: 3rem;
     line-height: 1;
+  }
+
+  .xl\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 
