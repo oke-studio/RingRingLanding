@@ -54,7 +54,7 @@ export function HeroSection() {
             </div>
             
            <div className='relative '>
-           <div className='hidden xl:h-fit xl:z-10 xl:w-fit xl:w-full xl:h-full xl:p-5 xl:flex items-start'>
+           <div className='hidden xl:h-fit xl:z-10 xl:w-fit xl:w-full xl:h-full xl:p-5 xl:flex xl:p-10 xl:flex items-start'>
             
             <Image 
             src ="/ringringlogo.svg"

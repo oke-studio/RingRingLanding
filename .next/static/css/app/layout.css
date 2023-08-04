@@ -796,10 +796,6 @@ body{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
-.bg-black{
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
 .p-2{
   padding: 0.5rem;
 }
@@ -866,22 +862,16 @@ body{
 .font-normal{
   font-weight: 400;
 }
-.font-medium{
-  font-weight: 500;
-}
 .capitalize{
   text-transform: capitalize;
-}
-.text-white{
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-.text-\[\]{
-  color: ;
 }
 .text-\[\#4ade80\]{
   --tw-text-opacity: 1;
   color: rgb(74 222 128 / var(--tw-text-opacity));
+}
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 .antialiased{
   -webkit-font-smoothing: antialiased;
@@ -1141,17 +1131,24 @@ body{
     width: 100%;
   }
 
-  .xl\:p-20{
-    padding: 5rem;
+  .xl\:items-start{
+    align-items: flex-start;
+  }
+
+  .xl\:p-10{
+    padding: 2.5rem;
   }
 
   .xl\:p-5{
     padding: 1.25rem;
   }
 
-  .xl\:text-5xl{
-    font-size: 3rem;
-    line-height: 1;
+  .xl\:p-20{
+    padding: 5rem;
+  }
+
+  .xl\:p-1{
+    padding: 0.25rem;
   }
 
   .xl\:text-4xl{
